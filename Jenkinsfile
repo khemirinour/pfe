@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git url: 'https://github.com/ton-compte/ton-projet.git' , branch: 'main'
+                git url: 'https://github.com/khemirinour/pfe.git' , branch: 'main'
             }
         }
 
